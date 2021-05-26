@@ -9,10 +9,10 @@
 
 body {  background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: tan;
-  background-image: url("../images/3 Bar.jpg");
+  background-image: url("3 Bar.jpg");
 }
 
 
@@ -201,10 +201,10 @@ h3 span a {
 
 
 
-@media (max-width: 1200px;) {
+@media (max-width: 1200px) {
 .ullihead , .ulli , .ullia {
-  height: 2px;
-  line-height: 2px;
+  height: 20px;
+  line-height: 20px;
 }
 }
 
