@@ -8,13 +8,13 @@
 
 
 body {
-  background-image: url("../images/3 About Fish 2.jpg");
+  background-image: url("3 About Fish 2.jpg");
   background-color: black;
   background-attachment: fixed;
   background-position: center;
   overflow-y: scroll;
-  position: relative;
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 
@@ -50,18 +50,18 @@ a:hover {
 }
 
 .btn {
-  box-shadow: 0px 10px 14px -7px #ffff00;
   background: linear-gradient(to bottom, #2dabf9, #0688fa 50%, #0688fa 50%);
   background-color: #2dabf9;
-  border-radius: 25px;
   display: inline-block;
   cursor: pointer;
   color: #ffff00;
   font-family: Arial;
-  font-size: 20px;
   font-weight: bold;
-  padding: 11px 15px;
   text-decoration: none;
+  box-shadow: 0px 10px 14px -7px #ffff00;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 11px 15px;
   text-shadow: 0px 1px 0px #ff3800;
 }
 
@@ -159,7 +159,37 @@ ul li a {
 
 
 
+@media (max-width: 1200px) {
+  .btn {
+    box-shadow: 0px 7px 11px -5px #ffff00;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 9px 12px;
+    text-shadow: 0px .9px 0px #ff3800;
+  }
+}
 
+
+@media (max-width: 600px) {
+  .btn {
+    box-shadow: 0px 3.5px 5.5px -2.5px #ffff00;
+    font-size: 7.5px;
+    border-radius: 10px;
+    padding: 4.5px 6px;
+    text-shadow: 0px .45px 0px #ff3800;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .btn {
+    box-shadow: 0px 2px 3.5px -1.75px #ffff00;
+    font-size: 5px;
+    border-radius: 6px;
+    padding: 3px 4px;
+    text-shadow: 0px .3px 0px #ff3800;
+  }
+}
 
 
 @media (max-width: 1200px) {
@@ -376,6 +406,7 @@ ul li a {
 @media (max-width: 1200px) {
   p {
     font-size: 18px;
+line-height: 35px;
   }
 }
 
